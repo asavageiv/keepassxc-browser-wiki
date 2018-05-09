@@ -52,9 +52,11 @@ It's possible to use KeePassXC without the proxy feature. This means the connect
 
 ### 4) Debug the extension itself
 If everything else seems to be OK but you still have issues please try to debug the extension.
-Chromium-based:
+
+Chromium-based browsers:
 - Go to the extension page, check `Developer mode`
 - Click `backgroung page` link after the `Inspect views:` text
+
 Firefox:
 - Go to `about:debugging` and check `Enable add-on debugging`
 - Find KeePassXC-Browser and click `Debug`
