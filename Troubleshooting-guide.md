@@ -62,3 +62,15 @@ Firefox:
 - Find KeePassXC-Browser and click `Debug`
 
 Console tab should now show any error messages the extension writes. If you are a developer and know these things you can use the Sources tab and debug the extension and find the exact point where it fails.
+
+#### Debug the content script
+For debugging autocomplete, password generator, or anything else that interacts with the web page itself, content scripts must be debugged.
+
+Chromium-based browsers:
+- Use the menu `View -> Developer -> Developer Tools` or with right mouse click on the page and select `Inspect`
+- Go to `Sources` tab and use the double arrow on the top left of the Developer Tools to view `Content scripts`
+- Open `top` tree and search for `KeePassXC-Browser`. Open `keepassxc-browser.js`
+
+Firefox:
+- Use the menu `Tools -> Web Developer -> Debugger`
+- Go to `Sources` tab on the left and search for `KeePassXC-Browser`. Open `keepassxc-browser.js`
