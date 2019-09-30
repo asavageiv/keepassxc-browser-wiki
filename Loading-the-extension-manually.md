@@ -19,3 +19,9 @@ Next, open the `org.keepassxc.keepassxc_browser.json` ([Troubleshooting guide](h
 ```
 
 When you reload the extension it should now connect to KeePassXC.
+
+### Load the temporary extension to the browser
+
+With Firefox, open `about:debugging#/runtime/this-firefox` and click _Load Temporary Add-on_. Browse to the unzipped folder and select `manifest.json` file.
+
+With Chromium, open `chrome://extensions`, enable _Developer Mode_ from the top-right and click _Load unpacked button_. Select the unzipped folder.
