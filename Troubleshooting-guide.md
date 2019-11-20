@@ -9,18 +9,21 @@ Also there should be a registry entry found in the following location(s):
 - Chromium: `HKEY_CURRENT_USER\\Software\\Chromium\\NativeMessagingHosts\\`
 - Firefox: `HKEY_CURRENT_USER\\Software\\Mozilla\\NativeMessagingHosts\\`
 - Vivaldi: `HKEY_CURRENT_USER\\Software\\Vivaldi\\NativeMessagingHosts\\`
+- Tor Browser: `HKEY_CURRENT_USER\\Software\\Mozilla\\NativeMessagingHosts\\`
 
 #### Linux
 - Chrome: `~/.config/google-chrome/NativeMessagingHosts`
 - Chromium `~/.config/chromium/NativeMessagingHosts`
 - Firefox: `~/.mozilla/native-messaging-hosts`
 - Vivaldi: `~/.config/vivaldi/NativeMessagingHosts`
+- Tor Browser: `~/.tor-browser/app/Browser/TorBrowser/Data/Browser/.mozilla/native-messaging-hosts`
 
 #### macOS
 - Chrome: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
 - Chromium: `~/Library/Application Support/Chromium/NativeMessagingHosts`
 - Firefox: `~/Library/Application Support/Mozilla/NativeMessagingHosts`
 - Vivaldi: `~/Library/Application Support/Vivaldi/NativeMessagingHosts`
+- Tor Browser `~/Library/Application Support/TorBrowser-Data/Browser/Mozilla/NativeMessagingHosts`
 
 If you use any other browser the configuration location can vary. In these cases the script file must be copied manually.
 
