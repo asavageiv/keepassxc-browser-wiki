@@ -18,6 +18,13 @@ Also there should be a registry entry found in the following location(s):
 - Vivaldi: `~/.config/vivaldi/NativeMessagingHosts`
 - Tor Browser: `~/.tor-browser/app/Browser/TorBrowser/Data/Browser/.mozilla/native-messaging-hosts`
 
+Tor Browser installed via the official .tar.gz package will look for the following folders (when extracted to the home folder):
+`/home/<user>/tor-browser_en-US/Browser/TorBrowser/Data/Browser/.mozilla/native-messaging-hosts/` and globally from `/usr/lib/mozilla/native-messaging-hosts/`.
+
+Tor Browser installed via Torbrowser-launcher looks for the following (for en_US): `/home/<user>/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/TorBrowser/Data/Browser/.mozilla/native-messaging-hosts/`
+
+For now, the .json file needed can be symlinked or copied to those directions, for example from under `.mozilla/native-messaging-hosts`.
+
 #### macOS
 - Chrome: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
 - Chromium: `~/Library/Application Support/Chromium/NativeMessagingHosts`
