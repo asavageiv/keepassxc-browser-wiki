@@ -10,6 +10,7 @@ Also there should be a registry entry found in the following location(s):
 - Firefox: `HKEY_CURRENT_USER\\Software\\Mozilla\\NativeMessagingHosts\\`
 - Vivaldi: `HKEY_CURRENT_USER\\Software\\Vivaldi\\NativeMessagingHosts\\`
 - Tor Browser: `HKEY_CURRENT_USER\\Software\\Mozilla\\NativeMessagingHosts\\`
+- Edge: `HKEY_CURRENT_USER\\Software\\Microsoft\\Edge\\NativeMessagingHosts\\`
 
 #### Linux
 - Chrome: `~/.config/google-chrome/NativeMessagingHosts`
@@ -31,6 +32,7 @@ For now, the .json file needed can be symlinked or copied to those directions, f
 - Firefox: `~/Library/Application Support/Mozilla/NativeMessagingHosts`
 - Vivaldi: `~/Library/Application Support/Vivaldi/NativeMessagingHosts`
 - Tor Browser `~/Library/Application Support/TorBrowser-Data/Browser/Mozilla/NativeMessagingHosts`
+- Edge `~/Library/Application Support/Microsoft Edge/NativeMessagingHosts`
 
 If you use any other browser the configuration location can vary. In these cases the script file must be copied manually.
 
