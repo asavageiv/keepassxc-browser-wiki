@@ -27,6 +27,7 @@ Tor Browser installed via Torbrowser-launcher looks for the following (for en_US
 For now, the .json file needed can be symlinked or copied to those directions, for example from under `.mozilla/native-messaging-hosts`.
 
 #### macOS
+- Brave: `~/Library/Application Support/BraveSoftware/Brave-Browser/NativeMessagingHosts`
 - Chrome: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
 - Chromium: `~/Library/Application Support/Chromium/NativeMessagingHosts`
 - Firefox: `~/Library/Application Support/Mozilla/NativeMessagingHosts`
